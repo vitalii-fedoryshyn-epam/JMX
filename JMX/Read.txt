@@ -1,0 +1,8 @@
+http://middlewaremagic.com/jboss/?p=324
+
+java -Dcom.sun.management.jmxremote.port=9999 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false com.vf.Server
+
+java com.vf.Client2
+
+java com.vf.Client1
+
